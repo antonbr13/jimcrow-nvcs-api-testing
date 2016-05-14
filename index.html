@@ -5,9 +5,11 @@
       <title></title>
    </head>
    <body ng-controller='mainCtrl as main'>
-   <div class="" >
-         {{main.dataSets.gender}}
-      </p>
+   <div class="" ng-repeat='data in main.dataSets'>
+         Year 2011
+         <br>
+         {{data.year}}
+
    </div>
 <!-- Scripts Depencies -->
 <script src="node_modules/angular/angular.js" charset="utf-8"></script>
